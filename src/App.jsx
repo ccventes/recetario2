@@ -26,7 +26,7 @@ function App() {
       {/* Selector principal */}
       {!activeSearch && (
         <div className="search-selector">
-          <p>Elige un modo de búsqueda:</p>
+          <p>elige un modo de búsqueda:</p>
           <button onClick={() => setActiveSearch("letter")}>🔤 Por letra</button>
           <button onClick={() => setActiveSearch("name")}>📝 Por nombre</button>
           <button onClick={() => setActiveSearch("autocomplete")}>⚡ Autocompletar</button>
